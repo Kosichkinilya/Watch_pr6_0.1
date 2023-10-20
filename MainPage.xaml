@@ -5,10 +5,14 @@
              Title="Часы"
              Background="AliceBlue">
     <VerticalStackLayout>
-        <Label 
-            Text="Секундомер"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
+
+
+
+        <Label x:Name="timeLabel"
+               FontSize="30"
+               HorizontalTextAlignment="Center"
+               VerticalTextAlignment="Center" />
+       
     </VerticalStackLayout>
 
 

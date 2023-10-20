@@ -8,7 +8,7 @@
 
 
     <TabBar>
-        <Tab Title="Часы" Icon="dotnet_bot.svg">
+        <Tab Title="Часы" Icon="Alarm.svg">
             <ShellContent Title="Способ №1" ContentTemplate="{DataTemplate local:MainPage}"/>
         </Tab>
 

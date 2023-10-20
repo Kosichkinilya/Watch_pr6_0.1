@@ -2,18 +2,30 @@
 
 public partial class MainPage : ContentPage
 {
-	int count = 0;
 
-	public MainPage()
-	{
-		InitializeComponent();
-	}
+    public MainPage()
+    {
+        InitializeComponent();
+        UpdateTime();
+    }
 
+    private void UpdateTime()
+    {
+        Device.StartTimer(TimeSpan.FromSeconds(1), () =>
+        {
+            Device.BeginInvokeOnMainThread(() =>
+            {
+                timeLabel.Text = DateTime.Now.ToString("HH:mm:ss");
+            });
 
-
-
-
-
-
+            return true;
+        });
+    }
 }
+
+
+
+
+
+
 
