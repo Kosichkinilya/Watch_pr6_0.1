@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="Watch_pr6_kosichkin_0._1.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:Watch_pr6_kosichkin_0._1"
+    Shell.FlyoutBehavior="Disabled">
+
+
+    <TabBar>
+        <Tab Title="Часы" Icon="dotnet_bot.svg">
+            <ShellContent Title="Способ №1" ContentTemplate="{DataTemplate local:MainPage}"/>
+        </Tab>
+
+        <Tab Title="Будильник" Icon="dotnet_bot.svg">
+            <ShellContent Title="Способ №2" ContentTemplate="{DataTemplate local:NewPage1}"/>
+        </Tab>
+
+        <Tab Title="Секундомер" Icon="dotnet_bot.svg">
+            <ShellContent Title="Способ №2" ContentTemplate="{DataTemplate local:NewPage2}"/>
+        </Tab>
+
+        <Tab Title="Таймер" Icon="dotnet_bot.svg">
+            <ShellContent Title="Способ №2" ContentTemplate="{DataTemplate local:NewPage3}"/>
+        </Tab>
+    </TabBar>
+
+</Shell>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Watch_pr6_kosichkin_0._1.NewPage1"
+             Title="Будильник"
+             Background="AliceBlue">
+    <VerticalStackLayout>
+        <Label 
+            Text="Будильник"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+    </VerticalStackLayout>
+</ContentPage>

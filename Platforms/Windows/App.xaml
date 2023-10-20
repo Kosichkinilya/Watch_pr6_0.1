@@ -1,0 +1,8 @@
+﻿<maui:MauiWinUIApplication
+    x:Class="Watch_pr6_kosichkin_0._1.WinUI.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:maui="using:Microsoft.Maui"
+    xmlns:local="using:Watch_pr6_kosichkin_0._1.WinUI">
+
+</maui:MauiWinUIApplication>
