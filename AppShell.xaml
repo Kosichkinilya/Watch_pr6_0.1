@@ -8,19 +8,19 @@
 
 
     <TabBar>
-        <Tab Title="Часы" Icon="Alarm.svg">
+        <Tab Title="Часы" Icon="alarm.svg">
             <ShellContent Title="Способ №1" ContentTemplate="{DataTemplate local:MainPage}"/>
         </Tab>
 
-        <Tab Title="Будильник" Icon="dotnet_bot.svg">
+        <Tab Title="Будильник" Icon="alarm.svg">
             <ShellContent Title="Способ №2" ContentTemplate="{DataTemplate local:NewPage1}"/>
         </Tab>
 
-        <Tab Title="Секундомер" Icon="dotnet_bot.svg">
+        <Tab Title="Секундомер" Icon="stop_watch.svg">
             <ShellContent Title="Способ №2" ContentTemplate="{DataTemplate local:NewPage2}"/>
         </Tab>
 
-        <Tab Title="Таймер" Icon="dotnet_bot.svg">
+        <Tab Title="Таймер" Icon="timer.svg">
             <ShellContent Title="Способ №2" ContentTemplate="{DataTemplate local:NewPage3}"/>
         </Tab>
     </TabBar>

@@ -4,10 +4,7 @@
              x:Class="Watch_pr6_kosichkin_0._1.NewPage3"
              Title="Таймер"
              Background="AliceBlue">
-    <VerticalStackLayout>
-        <Label 
-            Text="Таймер"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
-    </VerticalStackLayout>
+    <StackLayout Padding="20">
+       
+    </StackLayout>
 </ContentPage>

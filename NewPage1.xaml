@@ -4,10 +4,34 @@
              x:Class="Watch_pr6_kosichkin_0._1.NewPage1"
              Title="Будильник"
              Background="AliceBlue">
-    <VerticalStackLayout>
-        <Label 
-            Text="Будильник"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
-    </VerticalStackLayout>
+    <StackLayout>
+        <StackLayout>
+            <Label 
+               Text="Установите будильник"
+               HorizontalOptions="CenterAndExpand"
+                FontSize="Title"
+               VerticalOptions="CenterAndExpand" />
+        </StackLayout>
+
+        <StackLayout Spacing="20" Padding="20">
+            
+            
+            <TimePicker 
+               x:Name="alarmTimePicker"
+               Format="T"
+                FontSize="Title"
+               VerticalOptions="CenterAndExpand" />
+            
+            <Button
+                Text="Установить будильник"
+                VerticalOptions="CenterAndExpand"
+                Clicked="SetAlarmButton_Clicked"/>
+            
+            <Button
+                Text="Сбросить будильник" 
+                Clicked="CancelAlarmButton_Clicked" />
+            
+            
+        </StackLayout>
+    </StackLayout>
 </ContentPage>

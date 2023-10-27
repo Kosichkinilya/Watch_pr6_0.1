@@ -8,11 +8,20 @@
 
 
 
+
+
         <Label x:Name="timeLabel"
-               FontSize="30"
+               FontSize="50"
+               BackgroundColor="white"
                HorizontalTextAlignment="Center"
+                    
                VerticalTextAlignment="Center" />
+
+    
+
+
        
+
     </VerticalStackLayout>
 
 

@@ -3,11 +3,27 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Watch_pr6_kosichkin_0._1.NewPage2"
              Title="Секундомер"
-             Background="AliceBlue">
-    <VerticalStackLayout>
+             Background="White">
+    <StackLayout Spacing="20" Padding="20">
         <Label 
-            Text="Секундомер"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
-    </VerticalStackLayout>
+            x:Name="timerLabel" 
+            Text="00:00:00"
+            FontSize="50"
+            HorizontalOptions="CenterAndExpand" 
+            VerticalOptions="CenterAndExpand" />
+        
+        <Button
+            x:Name="startButton" 
+            Text="Старт" 
+            Clicked="StartButton_Clicked" />
+        
+        <Button x:Name="stopButton"
+                Text="Стоп" 
+                IsEnabled="false"
+                Clicked="StopButton_Clicked" />
+
+        <Button x:Name="resetButton"
+                Text="Сброс" 
+                Clicked="StopButton_Clicked" />
+    </StackLayout>
 </ContentPage>
