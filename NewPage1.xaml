@@ -4,34 +4,70 @@
              x:Class="Watch_pr6_kosichkin_0._1.NewPage1"
              Title="Будильник"
              Background="AliceBlue">
-    <StackLayout>
-        <StackLayout>
-            <Label 
-               Text="Установите будильник"
-               HorizontalOptions="CenterAndExpand"
-                FontSize="Title"
-               VerticalOptions="CenterAndExpand" />
-        </StackLayout>
-
-        <StackLayout Spacing="20" Padding="20">
-            
-            
-            <TimePicker 
-               x:Name="alarmTimePicker"
-               Format="T"
-                FontSize="Title"
-               VerticalOptions="CenterAndExpand" />
+    <VerticalStackLayout>
+        
+        <StackLayout
+            Spacing="10" Padding="10">
+            <TimePicker
+                x:Name="alarmTimePicker" 
+                Time="08:00" 
+                FontSize="35"/>
             
             <Button
                 Text="Установить будильник"
-                VerticalOptions="CenterAndExpand"
-                Clicked="SetAlarmButton_Clicked"/>
+                Clicked="OnSetAlarmClicked"
+                Background="Green"/>
+
+            <Label
+                    x:Name="alarmStatusLabel"
+                    HorizontalOptions="Start"/>
             
-            <Button
-                Text="Сбросить будильник" 
-                Clicked="CancelAlarmButton_Clicked" />
+            <StackLayout>
+                <Label 
+                    Text="Понедельник" 
+                    HorizontalOptions="StartAndExpand"/>
+                <Switch
+                    x:Name="swMonday"
+                    HorizontalOptions="StartAndExpand"/>
+                
+                
+                <Label 
+                     Text="Вторник" 
+                     HorizontalOptions="StartAndExpand"/>
+                <Switch 
+                x:Name="swTuesday"  HorizontalOptions="StartAndExpand" />
+                <Label
+                Text="Среда"
+                HorizontalOptions="StartAndExpand"/>
+                <Switch
+                x:Name="swWednesday"  HorizontalOptions="StartAndExpand" />
+                <Label
+                Text="Четверг" 
+                HorizontalOptions="StartAndExpand"/>
+                <Switch
+                x:Name="swThursday"  HorizontalOptions="StartAndExpand"/>
+                <Label
+                Text="Пятница"
+                HorizontalOptions="StartAndExpand" />
+                <Switch
+                x:Name="swFriday"  HorizontalOptions="StartAndExpand" />
+                <Label 
+                Text="Суббота"
+                HorizontalOptions="StartAndExpand"/>
+                <Switch
+                x:Name="swSaturday"  HorizontalOptions="StartAndExpand"/>
+                <Label 
+                Text="Воскресенье"
+                HorizontalOptions="StartAndExpand"/>
+                <Switch 
+                x:Name="swSunday"  HorizontalOptions="StartAndExpand"/>
+
+            </StackLayout>
             
             
         </StackLayout>
-    </StackLayout>
+    </VerticalStackLayout>
+
+
+
 </ContentPage>

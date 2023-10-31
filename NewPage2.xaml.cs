@@ -36,7 +36,7 @@ public partial class NewPage2 : ContentPage
         stopButton.IsEnabled = false;
     }
 
-    private void ResetButton(object sender, EventArgs e)
+    private void Stop_sec(object sender, EventArgs e)
     {
         isTimerRunning = false;
         currentTime = TimeSpan.Zero;

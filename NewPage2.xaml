@@ -15,15 +15,18 @@
         <Button
             x:Name="startButton" 
             Text="Старт" 
-            Clicked="StartButton_Clicked" />
+            Clicked="StartButton_Clicked"
+            Background="Green"/>
         
         <Button x:Name="stopButton"
                 Text="Стоп" 
                 IsEnabled="false"
+                Background="gray"
                 Clicked="StopButton_Clicked" />
 
         <Button x:Name="resetButton"
                 Text="Сброс" 
-                Clicked="StopButton_Clicked" />
+                Clicked="Stop_sec" 
+                BackgroundColor="red"/>
     </StackLayout>
 </ContentPage>
