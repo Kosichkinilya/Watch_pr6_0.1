@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Watch_pr6_kosichkin_0._1.NewPage2"
              Title="Секундомер"
-             Background="White">
+             Background="Black">
     <StackLayout Spacing="20" Padding="20">
         <Label 
             x:Name="timerLabel" 

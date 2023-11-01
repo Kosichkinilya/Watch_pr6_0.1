@@ -3,8 +3,17 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Watch_pr6_kosichkin_0._1.NewPage3"
              Title="Таймер"
-             Background="AliceBlue">
-    <StackLayout Padding="20">
-       
+             Background="Black">
+    <StackLayout 
+        Spacing="10"
+        Padding="10"
+        HorizontalOptions="FillAndExpand"
+        VerticalOptions="Center">
+        <Label Text="Твой писюн отваится через:" HorizontalOptions="Center" FontSize="20" TextColor="red"/>
+            
+   
+        <Label x:Name="timerLabel" FontSize="36" Text="00:00:00" HorizontalOptions="CenterAndExpand" />
+        <Button x:Name="startButton" Background="green" TextColor="White" Text="Начать отвал" Clicked="StartTimer" HorizontalOptions="Fill" />
+        <Button x:Name="stopButton" Background="gray" TextColor="White" Text="Стоп" Clicked="StopTimer" IsEnabled="false" />
     </StackLayout>
 </ContentPage>

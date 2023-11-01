@@ -3,28 +3,25 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Watch_pr6_kosichkin_0._1.MainPage"
              Title="Часы"
-             Background="AliceBlue">
+             Background="Black">
     <VerticalStackLayout>
 
 
 
+        <Label x:Name="Text"
+               FontSize="17"
+               Text="Время в вашем регионе"
+               BackgroundColor="black"
+               HorizontalTextAlignment="Center"
+               VerticalTextAlignment="Center" />
 
 
         <Label x:Name="timeLabel"
                FontSize="50"
-               BackgroundColor="white"
+               BackgroundColor="black"
                HorizontalTextAlignment="Center"
-                    
                VerticalTextAlignment="Center" />
-
-    
-
-
        
-
     </VerticalStackLayout>
-
-
-
 
 </ContentPage>

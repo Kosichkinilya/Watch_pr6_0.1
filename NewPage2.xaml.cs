@@ -35,8 +35,8 @@ public partial class NewPage2 : ContentPage
         startButton.IsEnabled = true;
         stopButton.IsEnabled = false;
     }
-
-    private void Stop_sec(object sender, EventArgs e)
+    
+    private void Stop_sec(object sender, EventArgs e) // кнопка "—брос" работает 1 раз, повторно секундомер не сбрасываетс€
     {
         isTimerRunning = false;
         currentTime = TimeSpan.Zero;
